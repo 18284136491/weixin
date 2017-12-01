@@ -158,7 +158,7 @@ class Wechat extends Controller
         $create_time = $postObj->CreateTime;
 //        $UserDao = M("user");
         //(1)根据用户的open_id去 https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN
-        $access_token = "SxcGYiNGWneXlltrAKeQVNCt1Kq1agLX9oQxqK2PXcWaax4ckihcbHVfZJDGhLOsRqBkNqNHvdKkYcUhW2MBY_fYNOOJoE5hONbMPAvvkeM";
+        $access_token = self::get_token();
         $url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $access_token . "&openid=" . $open_id . "&lang=zh_CN";
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -198,9 +198,8 @@ class Wechat extends Controller
      */
     public function create_menu()
     {
-        include_once(APP_PATH . "Common/Conf/menu_config.php");
         $data = config('menu_conf');
-        $access_token = "uNV8yZRU9qokc0OLOt6WWMIE7_C7QxBOePbvkykf9l3ElALKy31spm20W4pbygyfOeJ-imn75WI_Eb97h3qyB31GePmUQr8R6Uc3xIISEfM";
+        $access_token = self::get_token();
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" . $access_token;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -241,21 +240,20 @@ class Wechat extends Controller
             DLOG("获取的code为空", "run", "caodi");
             exit;
         }
-        $appid = $this->app_id;
-        $secret = $this->secret;
-        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" . $appid . "&secret=" . $secret . "&code=" . $code . "&grant_type=authorization_code";
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        $result = curl_exec($ch);
-        DLOG("由OAuth2.0获取到的code转化成用户的openID的结果=" . $result, "run", "caodi");
-        curl_close($ch);
-        $user_info = json_decode($result, true);
+        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" . $this->app_id . "&secret=" . $this->secret . "&code=" . $code . "&grant_type=authorization_code";
+        $user_info = getHttp($url);
         $open_id = $user_info['openid'];
         return $open_id;
     }
+
+    public function get_token()
+    {
+        $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".$this->app_id."&secret=".$this->secret;
+        $res = getHttp($url);
+        return $res['access_token'];
+    }
+
+
 }
 
 ?>

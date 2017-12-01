@@ -47,4 +47,44 @@ function DLOG($log_content = '', $log_level = '', $log_name = '')
     return;
 }
 
+//get请求
+function getHttp($url){
+    $ch=curl_init();
+    //设置传输地址
+    curl_setopt($ch, CURLOPT_URL, $url);
+    //设置以文件流形式输出
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    //接收返回数据
+    $data=curl_exec($ch);
+    curl_close($ch);
+    $jsonInfo=json_decode($data,true);
+    return $jsonInfo;
+}
+
+//post请求
+function postHttp($url,$json){
+    $ch=curl_init();
+    //设置传输地址
+    curl_setopt($ch, CURLOPT_URL, $url);
+    //设置以文件流形式输出
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    //设置已post方式请求
+    curl_setopt($ch, CURLOPT_POST, 1);
+    //设置post文件
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
+    $data=curl_exec($ch);
+    curl_close($ch);
+    $jsonInfo=json_decode($data,true);
+    return $jsonInfo;
+}
+
+
+
+
+
+
+
+
 ?>

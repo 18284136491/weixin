@@ -1,0 +1,1019 @@
+---------------------------------------------------------------
+[ 2017-12-01T18:39:15+08:00 ] 127.0.0.1 127.0.0.1 POST /weixin/public/index.php/wechat/wechat/wechat?signature=57e965664826551abf4ed644319281e7bbddf345&timestamp=1512124761&nonce=217546226&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/wechat?signature=57e965664826551abf4ed644319281e7bbddf345&timestamp=1512124761&nonce=217546226&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,383.91kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-length' => '278',
+  'connection' => 'close',
+  'x-real-ip' => '140.207.54.75',
+  'host' => 'dear.4kb.cn',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '57e965664826551abf4ed644319281e7bbddf345',
+  'timestamp' => '1512124761',
+  'nonce' => '217546226',
+  'openid' => 'oR5mhwpo6xqsawSyYEsddOzqUcPs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->wechat[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php:36]
+---------------------------------------------------------------
+[ 2017-12-01T18:53:15+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.638037s][吞吐率：1.57req/s] [内存消耗：1,267.28kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:53:17+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,267.34kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:53:46+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:53:52+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,267.40kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.001001s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:54:02+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,267.52kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:55:18+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,267.47kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:55:19+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,267.47kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001001s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:55:20+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,267.47kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:56:43+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,267.44kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:56:53+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,267.31kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:56:55+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,267.31kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:00+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:17+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:30+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,267.37kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:57:42+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,267.64kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:58:00+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,266.94kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:58:44+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,267.56kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:58:45+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,267.56kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:58:47+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：1,267.56kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.531030s][吞吐率：1.88req/s] [内存消耗：1,268.48kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:59:01+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,268.48kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:59:03+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/get_token
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/get_token [运行时间：0.260015s][吞吐率：3.85req/s] [内存消耗：1,268.48kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'get_token',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->get_token[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T18:59:46+08:00 ] 127.0.0.1 127.0.0.1 POST /weixin/public/index.php/wechat/wechat/wechat?signature=f42804361516c05a172886792600f6463ed25087&timestamp=1512125993&nonce=1428436778&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/wechat?signature=f42804361516c05a172886792600f6463ed25087&timestamp=1512125993&nonce=1428436778&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,390.05kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-length' => '278',
+  'connection' => 'close',
+  'x-real-ip' => '140.207.54.76',
+  'host' => 'dear.4kb.cn',
+)
+[ info ] [ PARAM ] array (
+  'signature' => 'f42804361516c05a172886792600f6463ed25087',
+  'timestamp' => '1512125993',
+  'nonce' => '1428436778',
+  'openid' => 'oR5mhwpo6xqsawSyYEsddOzqUcPs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->wechat[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php:36]
+---------------------------------------------------------------
+[ 2017-12-01T19:01:02+08:00 ] 127.0.0.1 127.0.0.1 GET /weixin/public/index.php/wechat/wechat/create_menu
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/create_menu [运行时间：2.162124s][吞吐率：0.46req/s] [内存消耗：1,265.44kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'create_menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'x-real-ip' => '183.14.133.86',
+  'host' => 'dear.4kb.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->create_menu[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-01T19:01:30+08:00 ] 127.0.0.1 127.0.0.1 POST /weixin/public/index.php/wechat/wechat/wechat?signature=60d3586195bedf172d7de24e7f4eb3d30048f5f6&timestamp=1512126097&nonce=1379724986&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/wechat?signature=60d3586195bedf172d7de24e7f4eb3d30048f5f6&timestamp=1512126097&nonce=1379724986&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,387.24kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-length' => '278',
+  'connection' => 'close',
+  'x-real-ip' => '140.207.54.75',
+  'host' => 'dear.4kb.cn',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '60d3586195bedf172d7de24e7f4eb3d30048f5f6',
+  'timestamp' => '1512126097',
+  'nonce' => '1379724986',
+  'openid' => 'oR5mhwpo6xqsawSyYEsddOzqUcPs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->wechat[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php:36]
+---------------------------------------------------------------
+[ 2017-12-01T19:01:35+08:00 ] 127.0.0.1 127.0.0.1 POST /weixin/public/index.php/wechat/wechat/wechat?signature=4f657bd340b29152919d08cca5c2161c819cc5d0&timestamp=1512126101&nonce=1069704491&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/wechat?signature=4f657bd340b29152919d08cca5c2161c819cc5d0&timestamp=1512126101&nonce=1069704491&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,387.24kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-length' => '291',
+  'connection' => 'close',
+  'x-real-ip' => '140.207.54.75',
+  'host' => 'dear.4kb.cn',
+)
+[ info ] [ PARAM ] array (
+  'signature' => '4f657bd340b29152919d08cca5c2161c819cc5d0',
+  'timestamp' => '1512126101',
+  'nonce' => '1069704491',
+  'openid' => 'oR5mhwpo6xqsawSyYEsddOzqUcPs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->wechat[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php:36]
+---------------------------------------------------------------
+[ 2017-12-01T19:01:36+08:00 ] 127.0.0.1 127.0.0.1 POST /weixin/public/index.php/wechat/wechat/wechat?signature=cd5b0854d36fdd37019440d5ea737551421b22c4&timestamp=1512126103&nonce=511656191&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs
+[ info ] dear.4kb.cn/weixin/public/index.php/wechat/wechat/wechat?signature=cd5b0854d36fdd37019440d5ea737551421b22c4&timestamp=1512126103&nonce=511656191&openid=oR5mhwpo6xqsawSyYEsddOzqUcPs [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,387.24kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\weixin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'wechat',
+    2 => 'wechat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'text/xml',
+  'pragma' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0',
+  'content-length' => '292',
+  'connection' => 'close',
+  'x-real-ip' => '140.207.54.76',
+  'host' => 'dear.4kb.cn',
+)
+[ info ] [ PARAM ] array (
+  'signature' => 'cd5b0854d36fdd37019440d5ea737551421b22c4',
+  'timestamp' => '1512126103',
+  'nonce' => '511656191',
+  'openid' => 'oR5mhwpo6xqsawSyYEsddOzqUcPs',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\WeMenuConf @app_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\wechat\Controller\Wechat->wechat[ D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: echostr[D:\phpStudy\WWW\weixin\application\wechat\controller\Wechat.php:36]
