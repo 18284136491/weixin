@@ -41,8 +41,6 @@ class WeMenuConf
         }';
 
         config('menu_conf',$menu_conf);
-
-
     }
 }
 ?>
